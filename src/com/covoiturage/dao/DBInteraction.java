@@ -19,6 +19,7 @@ public class DBInteraction {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
+			System.out.println("J'ai change cette ligne ayoub!");
 			//etablir la connection
 			 conn = DriverManager.getConnection(url,"root","");
 			
