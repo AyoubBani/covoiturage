@@ -16,7 +16,11 @@ public class DBInteraction {
 	static Statement st;
 	
 	public static Connection connection(){
+<<<<<<< HEAD
 // new line by AyoubBani		
+=======
+//new line by abdellah		
+>>>>>>> origin/sbranche
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			System.out.println("J'ai change cette ligne ayoub!");
